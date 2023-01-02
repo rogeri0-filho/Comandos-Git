@@ -4,7 +4,7 @@ Este repositório contém alguns dos principais comandos em git aos quais eu lis
 
 Documentação : [https://git-scm.com/doc](https://git-scm.com/doc)
 
---
+---
 
 ## Comandos básicos: 
 
@@ -18,6 +18,7 @@ Essas são algumas das funções mais básicas do Git. Funções ao qual o usuá
 | `git add [nome_arquivo.extensão]` | Adiciona um arquivo para área de stage (Controle de Versão)|
 | `git add .` | Adiciona todos os arquivos novos ou modificados de uma só vez ao controle de versão |
 | `git commit -m "[Mensagem de Commit]"` | Cria uma versão do cógido com as alterações e com uma mensagem junto |
+| `touch . gitignore` | Cria um arquivo git, e dentro dele, o usuário irá decidir quais pastas ou arquivos serão ou não adicionádos ao controle de versão |
 | `git reset --hard- [id_da_versão]` | volta o código a uma versão anterior ao qual ele estava |
 | `git rm -r [nome_do_arquivo.extensão]` | Remove um arquivo (ou pasta). também pode ser usado para remover arquivos do índice de staging e do diretório de trabalho|
 
