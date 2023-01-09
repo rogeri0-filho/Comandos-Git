@@ -50,7 +50,7 @@ O conceito de merge remeta a algo como mesclagem. Após o usuário terminar seus
 
 | Comando | Função |
 | ------- | --------- |
-| `git branch` | Lista as branches existentes. O asterisco e cor verde apontas para a branch atual |
+| `git branch` | Lista as branches existentes. O asterisco e cor verde apontam para a branch atual |
 | `git branch -a` | Lista todas as branches locais e remotas |
 | `git branch [nome_da_branch]` | Cria uma nova branch. Normalmente são chamadas de staging, esse nome se refere a branchs que está recebendo atualizações que não estão testadas em produção |
 | `git branch -d [nome_da_branch]` | Deletar a branch |
